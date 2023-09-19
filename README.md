@@ -16,13 +16,21 @@ dtoverlay=spi6-2cs
 If using the TMC5072-BOB, connect to the pi as follows for SPI6:
 
 TMC5072-BOB    <---->    Raspberry Pi
+
 VCCIO          <---->    3.3V (pin 1)
+
 GND            <---->    GND  (pin 6, 14, 20, 30, or, 34)
+
 CSN            <---->    SPI6_CE0_N (pin 12)
+
 SCK            <---->    SPI6_SCLK (pin 40)
+
 SDI            <---->    SPI6_MOSI (pin 38)
+
 SDO            <---->    SPI6_MISO (pin 35)
+
 CLK16          <---->    GND  (pin 6, 14, 20, 30, or, 34)
+
 ENN            <---->    GND  (pin 6, 14, 20, 30, or, 34)
 
 Connect GND to external power supply GND.
