@@ -8,7 +8,10 @@ Auxilliary SPI peripherals (SPI1 and SPI2 on the Pi4) do not work with SPI mode 
 Add these lines to /boot/config.txt on the raspberry pi to enable SPI1 and SPI6, then reboot:
 
 dtparam=spi=on
+
+
 dtoverlay=spi1-1cs
+
 dtoverlay=spi6-2cs
 
 ## Wiring TMC5072-BOB to Raspberry pi
