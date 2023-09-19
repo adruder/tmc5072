@@ -10,3 +10,5 @@ motor_driver.basic_init()
 motor_driver.goto_position(0, 512000)
 motor_driver.goto_position(1, 512000)
 
+gstat_reg = motor_driver.read_register(motor_driver.gstat)
+print(gstat_reg)
